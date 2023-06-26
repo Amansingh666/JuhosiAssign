@@ -1,0 +1,69 @@
+{
+    "schema": "sakila",
+    "includesDdl": true,
+    "includesViewsDdl": true,
+    "includesData": true,
+    "tables": [
+        "city",
+        "actor",
+        "film",
+        "address",
+        "customer",
+        "payment",
+        "country",
+        "staff",
+        "category",
+        "film_actor",
+        "film_category",
+        "film_text",
+        "inventory",
+        "language",
+        "rental",
+        "store"
+    ],
+    "views": [
+        "staff_list",
+        "customer_list",
+        "film_list",
+        "sales_by_film_category",
+        "nicer_but_slower_film_list",
+        "sales_by_store",
+        "actor_info"
+    ],
+    "events": [],
+    "functions": [
+        "get_customer_balance",
+        "inventory_in_stock",
+        "inventory_held_by_customer"
+    ],
+    "procedures": [
+        "rewards_report",
+        "film_in_stock",
+        "film_not_in_stock"
+    ],
+    "basenames": {
+        "city": "sakila@city",
+        "actor": "sakila@actor",
+        "film": "sakila@film",
+        "address": "sakila@address",
+        "customer": "sakila@customer",
+        "payment": "sakila@payment",
+        "country": "sakila@country",
+        "staff": "sakila@staff",
+        "category": "sakila@category",
+        "film_actor": "sakila@film_actor",
+        "film_category": "sakila@film_category",
+        "film_text": "sakila@film_text",
+        "inventory": "sakila@inventory",
+        "language": "sakila@language",
+        "rental": "sakila@rental",
+        "store": "sakila@store",
+        "staff_list": "sakila@staff_list",
+        "customer_list": "sakila@customer_list",
+        "film_list": "sakila@film_list",
+        "sales_by_film_category": "sakila@sales_by_film_category",
+        "nicer_but_slower_film_list": "sakila@nicer_but_slower_film_list",
+        "sales_by_store": "sakila@sales_by_store",
+        "actor_info": "sakila@actor_info"
+    }
+}

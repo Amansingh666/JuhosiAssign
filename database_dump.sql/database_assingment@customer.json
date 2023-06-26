@@ -1,0 +1,39 @@
+{
+    "options": {
+        "schema": "database_assingment",
+        "table": "customer",
+        "columns": [
+            "id",
+            "order_date",
+            "company",
+            "owner",
+            "item",
+            "quantity",
+            "weight",
+            "shipment_request",
+            "tracking_id",
+            "shipment_size",
+            "box_count",
+            "specification",
+            "checklist_quantity",
+            "auth_id"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "id"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

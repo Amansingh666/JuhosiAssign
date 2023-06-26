@@ -1,0 +1,29 @@
+{
+    "options": {
+        "schema": "sakila",
+        "table": "film_category",
+        "columns": [
+            "film_id",
+            "category_id",
+            "last_update"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "film_id",
+        "category_id"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

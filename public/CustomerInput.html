@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+    <head>
+        <title>CustomerForm</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <form action="/custin" method="POST">
+            <label for="item1">OrderDate </label>
+            <input type="date" id="item1" oninput=validate() name ="item1">
+            <br>
+            <label for="item2">Company</label>
+            <input type="text" id="alphanumeric_input" oninput=validate() name ="alphanumeric_input">
+            <br>
+            <label for="item3">Owner </label>
+            <input type="text" id="alphanumeric_input_2" oninput=validate() name ="alphanumeric_input_2">
+            <br>
+            <label for="item4">Item </label>
+            <input type="text" id="item4" oninput=validate() name ="item4">
+            <br>
+            <label for="item5">Quantity </label>
+            <input type="number" id="item5" oninput=validate() name ="item5">
+            <br>
+            <label for="item6">Weight </label>
+            <input type="number" id="item6" name ="item6">
+            <br>
+            <label for="item7">Shipment Request </label>
+            <input type="text" id="item7" oninput=validate() name ="item7">
+            <br>
+            <label for="item8">Tracking ID </label>
+            <input type="text" id="item8" oninput=validate() name ="item8">
+            <br>
+            <label for="item9">Shipment Size </label>
+            <input type="text" id="item9" placeholder="Format: l*b*h" oninput=validate() name ="item9">
+            <br>
+            <label for="item10">Box Count </label>
+            <input type="number" id="item10" oninput=validate() name ="item10">
+            <br>
+            <label for="item11">Specifications </label>
+            <input type="text" id="item11" oninput=validate() name ="item11">
+            <br>
+            <label for="item12">CheckList Quantity </label>
+            <input type="text" id="item12" oninput=validate() name ="item12">
+            <br>
+            <input type="hidden" id="authid2" name="authid2" value="{{auth_id}}">
+
+            <input type="submit" id = "submitButton" value="SUBMIT">
+            
+        </form>
+        <script src = "script.js"></script>
+    </body>
+</html>

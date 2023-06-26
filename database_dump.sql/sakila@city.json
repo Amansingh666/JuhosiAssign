@@ -1,0 +1,29 @@
+{
+    "options": {
+        "schema": "sakila",
+        "table": "city",
+        "columns": [
+            "city_id",
+            "city",
+            "country_id",
+            "last_update"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "city_id"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

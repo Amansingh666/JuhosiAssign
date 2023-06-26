@@ -1,0 +1,42 @@
+{
+    "options": {
+        "schema": "sakila",
+        "table": "film",
+        "columns": [
+            "film_id",
+            "title",
+            "description",
+            "release_year",
+            "language_id",
+            "original_language_id",
+            "rental_duration",
+            "rental_rate",
+            "length",
+            "replacement_cost",
+            "rating",
+            "special_features",
+            "last_update"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [
+        "ins_film",
+        "upd_film",
+        "del_film"
+    ],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "film_id"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

@@ -1,0 +1,36 @@
+{
+    "options": {
+        "schema": "sakila",
+        "table": "customer",
+        "columns": [
+            "customer_id",
+            "store_id",
+            "first_name",
+            "last_name",
+            "email",
+            "address_id",
+            "active",
+            "create_date",
+            "last_update"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [
+        "customer_create_date"
+    ],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "customer_id"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

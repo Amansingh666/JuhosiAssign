@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Data</title>
+    <link rel="stylesheet" href="AdminStyles.css">
+</head>
+<body>
+    <table action = "\admin" method = GET>
+        <tr>
+            <th>Item/Customer</th>
+            <th>Customer1</th>
+            <th>Customer2</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <tr>
+                <td>Quantity</td>
+                <td id="r1c2"><%- data.customer1.quantity %></td>
+                <td id="r1c3"><%- data.customer2.quantity %></td>
+                <td id="r1c4"><%- data.total.quantity %></td>
+            </tr>
+            <tr>
+                <td>Weight</td>
+                <td id="r2c2"><%- data.customer1.weight %></td>
+                <td id="r2c3"><%- data.customer2.weight %></td>
+                <td id="r2c4"><%- data.total.weight %></td>
+            </tr>
+            <tr>
+                <td>BoxCount</td>
+                <td id="r3c2"><%- data.customer1.boxCount %></td>
+                <td id="r3c3"><%- data.customer2.boxCount %></td>
+                <td id="r3c4"><%- data.total.boxCount %></td>
+            </tr>
+        <script
+           
+                src = "client.js"></script>
+            
+        
+    </table>
+    
+</body>
+</html>

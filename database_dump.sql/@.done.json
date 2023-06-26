@@ -1,0 +1,56 @@
+{
+    "end": "2023-06-24 15:20:30",
+    "dataBytes": 3229012,
+    "tableDataBytes": {
+        "database_assingment": {
+            "customer": 123,
+            "auth": 58
+        },
+        "sakila": {
+            "actor": 7399,
+            "city": 21897,
+            "staff": 48685,
+            "category": 478,
+            "payment": 985743,
+            "country": 3593,
+            "customer": 58939,
+            "address": 69139,
+            "film_category": 26316,
+            "film_text": 113970,
+            "language": 180,
+            "film_actor": 149464,
+            "film": 193528,
+            "store": 52,
+            "inventory": 140417,
+            "rental": 1214415
+        },
+        "world": {
+            "countrylanguage": 18251,
+            "country": 31884,
+            "city": 144481
+        }
+    },
+    "chunkFileBytes": {
+        "sakila@city@@0.tsv.zst": 21897,
+        "sakila@category@@0.tsv.zst": 478,
+        "sakila@address@@0.tsv.zst": 69139,
+        "sakila@customer@@0.tsv.zst": 58939,
+        "database_assingment@customer@@0.tsv.zst": 123,
+        "sakila@actor@@0.tsv.zst": 7399,
+        "database_assingment@auth@@0.tsv.zst": 58,
+        "sakila@staff@@0.tsv.zst": 48685,
+        "sakila@payment@@0.tsv.zst": 985743,
+        "sakila@country@@0.tsv.zst": 3593,
+        "sakila@film_category@@0.tsv.zst": 26316,
+        "sakila@film_text@@0.tsv.zst": 113970,
+        "sakila@language@@0.tsv.zst": 180,
+        "sakila@inventory@@0.tsv.zst": 140417,
+        "sakila@film_actor@@0.tsv.zst": 149464,
+        "sakila@film@@0.tsv.zst": 193528,
+        "world@countrylanguage@@0.tsv.zst": 18251,
+        "sakila@store@@0.tsv.zst": 52,
+        "world@country@@0.tsv.zst": 31884,
+        "world@city@@0.tsv.zst": 144481,
+        "sakila@rental@@0.tsv.zst": 1214415
+    }
+}

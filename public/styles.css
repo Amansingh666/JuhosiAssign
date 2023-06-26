@@ -1,0 +1,45 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"] {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  input[type="password"]
+   {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  input[type="submit"]:disabled {
+    background-color: lightblue;
+    cursor: not-allowed;
+  }
+  input[id="sign-in"] {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;;
+    border: none;
+    cursor: pointer;
+  }
+  form[id = form2] 
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px;
+  }
+  

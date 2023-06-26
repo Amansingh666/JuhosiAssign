@@ -1,0 +1,20 @@
+{
+    "schema": "world",
+    "includesDdl": true,
+    "includesViewsDdl": true,
+    "includesData": true,
+    "tables": [
+        "city",
+        "country",
+        "countrylanguage"
+    ],
+    "views": [],
+    "events": [],
+    "functions": [],
+    "procedures": [],
+    "basenames": {
+        "city": "world@city",
+        "country": "world@country",
+        "countrylanguage": "world@countrylanguage"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "options": {
+        "schema": "sakila",
+        "table": "rental",
+        "columns": [
+            "rental_id",
+            "rental_date",
+            "inventory_id",
+            "customer_id",
+            "return_date",
+            "staff_id",
+            "last_update"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [
+        "rental_date"
+    ],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "rental_id"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

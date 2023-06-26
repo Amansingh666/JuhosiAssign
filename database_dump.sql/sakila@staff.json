@@ -1,0 +1,39 @@
+{
+    "options": {
+        "schema": "sakila",
+        "table": "staff",
+        "columns": [
+            "staff_id",
+            "first_name",
+            "last_name",
+            "address_id",
+            "picture",
+            "email",
+            "store_id",
+            "active",
+            "username",
+            "password",
+            "last_update"
+        ],
+        "decodeColumns": {
+            "picture": "FROM_BASE64"
+        },
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "staff_id"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

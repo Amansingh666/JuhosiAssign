@@ -1,0 +1,28 @@
+{
+    "options": {
+        "schema": "sakila",
+        "table": "country",
+        "columns": [
+            "country_id",
+            "country",
+            "last_update"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "country_id"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

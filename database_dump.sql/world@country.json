@@ -1,0 +1,40 @@
+{
+    "options": {
+        "schema": "world",
+        "table": "country",
+        "columns": [
+            "Code",
+            "Name",
+            "Continent",
+            "Region",
+            "SurfaceArea",
+            "IndepYear",
+            "Population",
+            "LifeExpectancy",
+            "GNP",
+            "GNPOld",
+            "LocalName",
+            "GovernmentForm",
+            "HeadOfState",
+            "Capital",
+            "Code2"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "Code"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

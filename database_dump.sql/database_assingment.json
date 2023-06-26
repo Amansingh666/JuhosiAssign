@@ -1,0 +1,18 @@
+{
+    "schema": "database_assingment",
+    "includesDdl": true,
+    "includesViewsDdl": true,
+    "includesData": true,
+    "tables": [
+        "auth",
+        "customer"
+    ],
+    "views": [],
+    "events": [],
+    "functions": [],
+    "procedures": [],
+    "basenames": {
+        "auth": "database_assingment@auth",
+        "customer": "database_assingment@customer"
+    }
+}

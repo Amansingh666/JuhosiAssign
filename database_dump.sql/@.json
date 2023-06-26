@@ -1,0 +1,35 @@
+{
+    "dumper": "mysqlsh Ver 8.0.33 for Win64 on x86_64 - for MySQL 8.0.33 (MySQL Community Server (GPL))",
+    "version": "2.0.1",
+    "origin": "dumpInstance",
+    "schemas": [
+        "database_assingment",
+        "sakila",
+        "world"
+    ],
+    "basenames": {
+        "database_assingment": "database_assingment",
+        "sakila": "sakila",
+        "world": "world"
+    },
+    "users": [
+        "'AMAN'@'localhost'",
+        "'root'@'localhost'"
+    ],
+    "defaultCharacterSet": "utf8mb4",
+    "tzUtc": true,
+    "bytesPerChunk": 64000000,
+    "user": "root",
+    "hostname": "Spectre",
+    "server": "Spectre",
+    "serverVersion": "8.0.33",
+    "binlogFile": "SPECTRE-bin.000002",
+    "binlogPosition": 2104644,
+    "gtidExecuted": "",
+    "gtidExecutedInconsistent": false,
+    "consistent": true,
+    "partialRevokes": false,
+    "compatibilityOptions": [],
+    "capabilities": [],
+    "begin": "2023-06-24 15:20:30"
+}
